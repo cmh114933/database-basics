@@ -2,6 +2,25 @@
 
 +++
 
+### Boss requirements
+
+- Show laptop sales for 2019
+- where address is somewhere in Beach Street
+- and sales is greater than 3000
+- model is inspiron or latitude
+- ordered by date and grouped by product
+
++++
+
+### Additional Requirements
+
+- Grouped together by country
+- Grouped together by state
+    - where state population is more than 500k
+- where laptop cumulative sales is greater than 100k units
+
++++
+
 What sort of information do the following websites store for display?
 - School
 - Facebook
@@ -13,6 +32,7 @@ What sort of information do the following websites store for display?
 +++
 
 - Text file
+
 ```
 id, name, age
 1, John Smith, 18
@@ -30,13 +50,10 @@ id, name, age
 |2|Jane Doe| 20|
 |3|Donal| 16|
 
-+++
-- Database
-
 ---
 
 ### Laptop Sales
-https://docs.google.com/spreadsheets/d/1aoycRdgvbkgsxfIKDVdU8w1ZaSwz4zs8MAzh8UYR4HI/edit#gid=0
+[Link here](https://docs.google.com/spreadsheets/d/1aoycRdgvbkgsxfIKDVdU8w1ZaSwz4zs8MAzh8UYR4HI/edit#gid=0)
 
 +++
 
@@ -48,7 +65,7 @@ One big table
 +++
 
 ### Organized Laptop Sales
-https://docs.google.com/spreadsheets/d/1H7Q4gxrL4lqf_nU2DjzA6xJkz4biUEer8dK0Imm1XfQ/edit#gid=1408105866
+[Link here](https://docs.google.com/spreadsheets/d/1H7Q4gxrL4lqf_nU2DjzA6xJkz4biUEer8dK0Imm1XfQ/edit#gid=1408105866)
 
 
 +++
@@ -63,6 +80,15 @@ Separated Tables
 - Database is an **organized collection** of data
 - i.e: Data stored in a specific structure, commonly in the form of `Columns/Field` and `Rows/Records`
 - Database become more organized and versatile when you include relationships
+
++++
+
+### Database vs Spreadsheets
+- Spreadsheets can only store as much data as the number of rows and columns
+- Accessing/filtering values in spreadsheets are tedious and not as fast and efficient
+- SQL is specifically designed to handle querying databases
+- Updating and managing spreadsheets is error prone. 
+- Spreadsheet data is prone to redundancy and conflicts.
 
 +++
 
