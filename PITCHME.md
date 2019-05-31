@@ -115,3 +115,51 @@ SELECT id, name, email
 FROM users
 ORDER BY name
 ```
+
+---
+
+### Complex JOINS
+
+---
+
+Default JOIN is INNER JOIN
+
+
+
++++
+
+### LEFT JOIN
+
+- allow right side to be NULL
+
+| users.name | users.country_id | country.id | country.name |
+|------------|------------------|------------|--------------|
+| Ming Xiang |         1        |      1     |   Malaysia   |
+|    John    |         5        |            |              |
+|    Jane    |         6        |            |              |
+
++++
+
+### RIGHT JOIN
+
+- allow left side to be NULL
+
+| users.name | users.country_id | country.id | country.name |
+|------------|------------------|------------|--------------|
+| Ming Xiang |         1        |      1     |   Malaysia   |
+|            |                  |      2     |    America   |
+|            |                  |      3     |     Japan    |
+
++++
+
+### FULL OUTER JOIN
+
+- allow either side to be null
+
+| users.name | users.country_id | country.id | country.name |
+|------------|------------------|------------|--------------|
+| Ming Xiang |         1        |      1     |   Malaysia   |
+|            |                  |      2     |    America   |
+|    Jane    |         6        |            |              |
+
+
