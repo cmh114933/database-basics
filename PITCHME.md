@@ -135,11 +135,7 @@ Default JOIN is INNER JOIN
 
 ### LEFT JOIN
 
-| users.name | users.country_id | country.id | country.name |
-|------------|------------------|------------|--------------|
-| Ming Xiang |         1        |      1     |   Malaysia   |
-|    Jane        |        5          |          |     |
-|     John       |          6        |          |        |
+![left-join](./left-join.png)
 
 
 ---
