@@ -148,11 +148,7 @@ Default JOIN is INNER JOIN
 
 ### RIGHT JOIN
 
-| users.name | users.country_id | country.id | country.name |
-|------------|------------------|------------|--------------|
-| Ming Xiang |         1        |      1     |   Malaysia   |
-|            |                  |      2     |    America   |
-|            |                  |      3     |     Japan    |
+![right-join](./right-join.png)
 
 ---
 
@@ -164,10 +160,6 @@ Default JOIN is INNER JOIN
 
 ### FULL OUTER JOIN
 
-| users.name | users.country_id | country.id | country.name |
-|------------|------------------|------------|--------------|
-| Ming Xiang |         1        |      1     |   Malaysia   |
-|            |                  |      2     |    America   |
-|    Jane    |         6        |            |              |
+![outer-join](./outer-join.png)
 
 
