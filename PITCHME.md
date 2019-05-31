@@ -124,13 +124,16 @@ ORDER BY name
 
 Default JOIN is INNER JOIN
 
-
-
-+++
+---
 
 ### LEFT JOIN
 
 - allow right side to be NULL
+
++++
+
+
+### LEFT JOIN
 
 | users.name | users.country_id | country.id | country.name |
 |------------|------------------|------------|--------------|
@@ -138,11 +141,16 @@ Default JOIN is INNER JOIN
 |    John    |         5        |            |              |
 |    Jane    |         6        |            |              |
 
-+++
+
+---
 
 ### RIGHT JOIN
 
 - allow left side to be NULL
+
++++
+
+### RIGHT JOIN
 
 | users.name | users.country_id | country.id | country.name |
 |------------|------------------|------------|--------------|
@@ -150,11 +158,15 @@ Default JOIN is INNER JOIN
 |            |                  |      2     |    America   |
 |            |                  |      3     |     Japan    |
 
-+++
+---
 
 ### FULL OUTER JOIN
 
 - allow either side to be null
+
++++
+
+### FULL OUTER JOIN
 
 | users.name | users.country_id | country.id | country.name |
 |------------|------------------|------------|--------------|
