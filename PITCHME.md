@@ -138,8 +138,8 @@ Default JOIN is INNER JOIN
 | users.name | users.country_id | country.id | country.name |
 |------------|------------------|------------|--------------|
 | Ming Xiang |         1        |      1     |   Malaysia   |
-|    John    |         5        |            |              |
-|    Jane    |         6        |            |              |
+|    Jane        |        5          |          |     |
+|     John       |          6        |          |        |
 
 
 ---
