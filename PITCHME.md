@@ -162,4 +162,38 @@ Default JOIN is INNER JOIN
 
 ![outer-join](./outer-join.png)
 
+---
+
+### JOIN Exercises
+
++++
+
+##### Employee Table
+
+| id | name     | department_id |
+|----|----------|---------------|
+|  1 |   John   |       1       |
+|  2 |   Jane   |       2       |
+|  3 |   Kevin  |       3       |
+|  4 | Nicholas |       5       |
+|  5 |   Lily   |       2       |
+|  6 |   Riley  |       1       |
+
++++
+
+##### Department Table
+
+| id | name          | manager_id |
+|----|---------------|------------|
+|  1 |    Finance    |      1     |
+|  2 | Manufacturing |      2     |
+|  3 |     Sales     |      3     |
+
++++
+
+### Exercises
+
+- JOIN ON employee.department_id = department.id
+- JOIN ON department.manager_id = employee.id
+- LEFT JOIN ON employee.department_id = department.id
 
